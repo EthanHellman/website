@@ -1,0 +1,108 @@
+.experience-section {
+    padding-top: 10px;
+    background: #fff;
+    height: auto;
+}
+
+.experience-section .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-section h2 {
+    color: #000000;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.experience-section h3 {
+    color: #333;
+    margin-bottom: 0.5em;
+}
+
+.skills ul,
+.courses ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li,
+.courses li {
+    color: #666;
+    margin-bottom: 0.5em;
+}
+
+.resume-link {
+    margin-top: 2em;
+}
+
+.resume-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-link a:hover {
+    background-color: #0056b3;
+}
+
+.experience-columns {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    gap: 20px;
+    width: 98%;
+    margin: 10px auto;
+}
+
+.positions, .leadership-activities, .honors {
+    flex: 1;
+    max-height: 600px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.position {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.resume-button-container {
+    text-align: center;
+    /* margin-top: 5px; */
+    padding-top: 10px;
+    /* margin-bottom: 5px; */
+    /* border-top: 1px solid #ccc; */
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.resume-button:hover {
+    background-color: #0056b3;
+}

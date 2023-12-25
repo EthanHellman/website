@@ -1,0 +1,65 @@
+.about-section {
+    /* padding: 10px 0; */
+    /* background: #f9f9f9; */
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.about-section .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
+.about-section .container .about-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-section h2 {
+    color: #000000;
+    margin-bottom: 1em;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: left;
+    align-self: flex-start;
+    margin-left: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.about-section .container .about-content p {
+    color: #666;
+    line-height: 1.6;
+    margin: 20px 40px 20px 40px;
+    text-align: left;
+}
+
+.about-image {
+    /* max-width: 200px;
+    height: 100px;
+    width: 100px;
+    margin-top: 2em;
+    border-radius: 50%;  */
+    /* Set the width and height to the same value to create a circle */
+    width: 300px;
+    height: 300px;
+    /* Use border-radius to create the circular shape */
+    border-radius: 50%;
+    /* Set the image as a background */
+    background-image: url('./content/headshot.jpg');
+    /* Center and scale the background image */
+    background-position: center;
+    background-size: cover;
+    /* Optional: Add a border, if desired */
+    border: 2px solid rgb(0, 0, 0);
+    align-self: flex-start;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+    

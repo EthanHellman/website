@@ -1,0 +1,100 @@
+.site-header {
+    background-color: #00000070; /* A dark shade for the header background */
+    color: #ecf0f1; /* Light color for text for contrast */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    position: fixed; /* Fixed at the top */
+    width: 100%;
+    z-index: 1000; /* Ensure the header stays above other content */
+    font-weight: bold;
+    /* font-family: 'Times New Roman', Times, serif */
+  }
+  
+  .site-header .container {
+    max-width: 100%;
+    /* margin: 0 10px 0 10px; */
+    margin-left : 20px;
+    margin-right : 20px;
+    padding: 10 20px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center; /* Align items vertically */
+    height: 60px; /* Fixed height for the header */
+  }
+  
+  .navbar {
+    display: flex;
+    width: 600px;
+    justify-content: space-between; /* Align navigation items to the right */
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* .nav-link {
+    text-decoration: none;
+    color: #ecf0f1; 
+    margin-left: 100px; 
+    padding: 10px 0; 
+    position: relative;
+    transition: color 0.3s; 
+  } */
+  
+  .nav-link {
+    text-decoration: none;
+    color: #ecf0f1; /* Text color */
+    margin-left: 30px; /* Increased space between navigation items */
+    padding: 10px 0; /* Padding for clickable area */
+    position: relative;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link.active { /* Hover, focus and active states */
+    color: #3498db; /* Highlight color */
+  }
+  
+  .nav-link::before { /* Add a pseudo-element for the underline */
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #3498db; /* Same as the highlight color */
+    transform: scaleX(0); /* Start with no width */
+    transform-origin: right;
+    transition: transform 0.3s;
+  }
+  
+  .nav-link:hover::before,
+  .nav-link.active::before { /* When hovered or active */
+    transform: scaleX(1);
+    transform-origin: left; /* Animate in from the left */
+  }
+  
+  .logo { /* If you have a logo */
+    color: #ecf0f1;
+    text-decoration: none; /* No underline for the logo */
+    font-size: 1.5em; /* Larger text for the logo */
+    font-weight: bold;
+  }
+  
+  /* Responsive navigation */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center; /* Center items in mobile view */
+    }
+  
+    .nav-link {
+      margin: 10px 0; /* Stack the navigation items */
+    }
+  }
+
+  a {
+    color: #ecf0f1;
+    text-decoration: none;
+  }
+  
