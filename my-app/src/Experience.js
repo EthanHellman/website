@@ -19,7 +19,7 @@ import kleiner from './content/kleiner.png';
 import techstars from './content/techstars.png';
 import bronfman from './content/bronfman.png';
 
-const resumeLink = 'https://drive.google.com/file/d/1TmlChN8fNR1vadFKe_5HfO-9a3xnP4b_/view?usp=sharing'
+const resumeLink = 'https://drive.google.com/file/d/1b8ELpLixy88rz0-RXHQHoycNcNNSEQI8/view?usp=drive_link'
 
 const skills = [
   { id: 1, name: 'Python', level: 'Expert' },

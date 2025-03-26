@@ -11,7 +11,9 @@ const About = () => {
                 <div className="about-content">
                     
                     <img src={headshot} alt="Your Name" className="about-image"/>
-                    <p>Ever since I was little, I have always been fascinated by questions of the mind. As a master's student at Stanford, I have structured my time and studies around these central inquiries. My focus is on the intersection of psychology, artificial intelligence, and human-computer interaction. </p>
+                    <p>From a young age, my  curiosity has been captivated by the intricate workings of the human mind. Currently pursuing my master's degree at Stanford University, I've dedicated my academic journey to exploring the profound intersection of psychology, artificial intelligence, and human-computer interaction.
+                        My daily routine revolves around a dynamic blend of rigorous research, engaging coursework, and staying at the forefront of the ever-evolving world of AI. Born and raised amidst the vibrant energy of New York City, I now call the innovative hub of the Bay Area my home.
+                        With an insatiable appetite for fresh challenges and a relentless drive to embark on new projects, I am continually seeking opportunities to push my intellectual boundaries. If you're working on something intriguing, I'd love to hear about it.</p>
                     
                     
                 </div>
